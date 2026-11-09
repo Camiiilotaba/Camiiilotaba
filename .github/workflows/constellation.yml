@@ -26,4 +26,4 @@ jobs:
           stack: Laravel / PHP
           languages: '["PHP", "TypeScript", "JavaScript", {"name": "Dart", "color": "#00b4ab"}, {"name": "SQL", "color": "#e38c00"}]'
           # Optional: a classic token with only read:user adds private contribution counts.
-          # token: ${{ secrets.CONSTELLATION_TOKEN }}
+          token: ${{ secrets.CONSTELLATION_TOKEN }}
